@@ -3,6 +3,7 @@ package com.sc.framework.component.popup;
 import android.database.DataSetObservable;
 import android.database.DataSetObserver;
 import android.view.View;
+import android.view.ViewGroup;
 
 /**
  * @author ShamsChu
@@ -13,7 +14,7 @@ public abstract class MenuPopupAdapter<T> {
     private DataSetObservable mDataSetObservable = new DataSetObservable();
 
     // 返回Item View视图对象
-    public abstract View getView(View container, int position);
+    public abstract View getView(ViewGroup container, int position);
 
     // 获取item数量
     public abstract int getItemCount();

@@ -2,6 +2,7 @@ package com.sc.sample;
 
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.sc.framework.component.popup.MenuPopupAdapter;
@@ -21,7 +22,7 @@ public class TestCustomAdapter extends MenuPopupAdapter<TestMenuBean> {
     }
 
     @Override
-    public View getView(View container, int position) {
+    public View getView(ViewGroup container, int position) {
         View view = LayoutInflater.from(container.getContext()).inflate(R.layout.test_custom_item, null);
         TextView tv = (TextView) view.findViewById(R.id.label);
         TestMenuBean bean = getItem(position);
