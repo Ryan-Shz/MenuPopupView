@@ -7,7 +7,7 @@
 
 ## 使用说明
 
-###Gradle###
+### Gradle
 
 ```
 // project build.gradle
