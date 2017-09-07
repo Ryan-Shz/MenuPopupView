@@ -20,6 +20,7 @@ public class TestPopupAdapter extends MenuPopupAdapter<String> {
         mData = data;
     }
 
+    // 返回Item View视图对象
     @Override
     public View getView(View container, int position) {
         View view = LayoutInflater.from(container.getContext()).inflate(R.layout.test_item, null);
@@ -28,11 +29,22 @@ public class TestPopupAdapter extends MenuPopupAdapter<String> {
         return view;
     }
 
+    /**
+     * 获取item数
+     *
+     * @return item数量
+     */
     @Override
     public int getItemCount() {
         return mData.size();
     }
 
+    /**
+     * 获取position位置的数据对象
+     *
+     * @param position 位置索引
+     * @return 数据对象
+     */
     @Override
     public String getItem(int position) {
         return mData.get(position);
