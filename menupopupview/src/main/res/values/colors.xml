@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_popup_transparent_25">#C0000000</color>
+    <color name="menu_popup_transparent">#00000000</color>
+    <color name="menu_popup_driver_default">#FFFFFF</color>
+</resources>
