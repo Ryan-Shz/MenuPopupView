@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String menuName = menuNameEditText.getText().toString().trim();
+                if (menuName.equals("")) {
+                    Toast.makeText(v.getContext(), "menu name can not be blank", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 menus.add(menuName);
             }
         });
