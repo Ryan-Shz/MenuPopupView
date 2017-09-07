@@ -10,7 +10,7 @@ import android.view.View;
  * @author ShamsChu
  * @Date 17/2/14 下午3:32
  */
-public class PopupView extends AbsPopupView {
+public class PopupView extends AbsPopupView implements IPopupLayout {
 
     private PopupLayout mPopupLayout;
 

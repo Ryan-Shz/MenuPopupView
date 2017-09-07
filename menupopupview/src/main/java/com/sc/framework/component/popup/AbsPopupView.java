@@ -14,7 +14,7 @@ import android.widget.PopupWindow;
  * @author ShamsChu
  * @Date 17/2/18 下午9:12
  */
-abstract class AbsPopupView extends PopupWindow implements IPopupLayout {
+abstract class AbsPopupView extends PopupWindow {
 
     private PopupLayout.PopupLocation mPopupLocation = PopupLayout.PopupLocation.Bottom;
 
