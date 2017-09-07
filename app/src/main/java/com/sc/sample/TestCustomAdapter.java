@@ -9,7 +9,7 @@ import com.sc.framework.component.popup.MenuPopupAdapter;
 import java.util.List;
 
 /**
- * @author zhushuhang
+ * @author ShamChu
  * @Date 17/9/7 09:53
  */
 public class TestCustomAdapter extends MenuPopupAdapter<TestMenuBean> {
