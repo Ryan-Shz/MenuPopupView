@@ -73,4 +73,13 @@ popupView.show(v);
 ### 4. 动态改变菜单并刷新
 ```
 adapter.notifyDataSetChanged();
+
+```
+
+### 5. 设置分割线颜色
+```
+// 设置item的分割线颜色
+popupView.setDriverColorResId(int colorResId);
+// 设置左右指示器的分割线颜色
+popupView.setIndicatorDriverColorResId(int colorResId);
 ```
