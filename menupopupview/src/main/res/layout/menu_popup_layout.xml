@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/left_arrow_iv"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@drawable/menu_popup_item"
         android:padding="10dp"
         android:src="@drawable/menu_popup_left_arrow" />
@@ -25,7 +25,7 @@
     <ImageView
         android:id="@+id/right_arrow_iv"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@drawable/menu_popup_item"
         android:padding="10dp"
         android:src="@drawable/menu_popup_right_arrow" />
