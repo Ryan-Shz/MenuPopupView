@@ -11,8 +11,8 @@ import android.view.WindowManager.LayoutParams;
 import android.widget.PopupWindow;
 
 /**
- * @author ShamsChu
- * @Date 17/2/18 下午9:12
+ * @author Ryan
+ * create by 17/2/18 下午9:12
  */
 abstract class AbsPopupView extends PopupWindow {
 

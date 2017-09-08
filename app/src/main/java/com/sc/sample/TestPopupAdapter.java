@@ -10,8 +10,8 @@ import com.sc.framework.component.popup.MenuPopupAdapter;
 import java.util.List;
 
 /**
- * @author ShamChu
- * @Date 17/9/6 23:15
+ * @author Ryan
+ * create by 17/9/6 23:15
  */
 public class TestPopupAdapter extends MenuPopupAdapter<String> {
 

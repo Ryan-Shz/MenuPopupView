@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 /**
- * @author ShamsChu
- * @Date 17/3/14 下午11:22
+ * @author Ryan
+ * create by 17/3/14 下午11:22
  */
 public class PopupItemLayout extends LinearLayout {
 

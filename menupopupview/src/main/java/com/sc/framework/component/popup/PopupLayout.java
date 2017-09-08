@@ -20,8 +20,8 @@ import android.widget.LinearLayout;
 /**
  * 弹出的气泡菜单
  *
- * @author ShamsChu
- * @Date 17/2/24 下午5:57
+ * @author Ryan
+ * create by 17/2/24 下午5:57
  */
 public class PopupLayout extends LinearLayout implements View.OnLayoutChangeListener, View.OnClickListener, IPopupLayout {
 
@@ -32,7 +32,7 @@ public class PopupLayout extends LinearLayout implements View.OnLayoutChangeList
     private Path mPopMaskPath;
     private Path mBulgePath;
     private Path mDestBulgePath;
-    private Matrix mCornuteMatrix;
+    private Matrix mCanuteMatrix;
     private PopupLocation mPopupLocation = PopupLocation.Bottom;
     private static final int DEFAULT_RADIUS = 16;
     private static final int DEFAULT_BULGE_SIZE = 16;
@@ -90,7 +90,7 @@ public class PopupLayout extends LinearLayout implements View.OnLayoutChangeList
         mBulgePath = new Path();
         mPopMaskPath = new Path();
         mDestBulgePath = new Path();
-        mCornuteMatrix = new Matrix();
+        mCanuteMatrix = new Matrix();
         resetBulge();
         resetMask();
     }
@@ -119,14 +119,14 @@ public class PopupLayout extends LinearLayout implements View.OnLayoutChangeList
 
         switch (mPopupLocation) {
             case Bottom:
-                mCornuteMatrix.setRotate(180, mBulgeSize, 0);
-                mCornuteMatrix.postTranslate(0, mBulgeSize);
-                mBulgePath.transform(mCornuteMatrix, mDestBulgePath);
+                mCanuteMatrix.setRotate(180, mBulgeSize, 0);
+                mCanuteMatrix.postTranslate(0, mBulgeSize);
+                mBulgePath.transform(mCanuteMatrix, mDestBulgePath);
                 mPopMaskPath.addPath(mDestBulgePath, offset - mBulgeSize, 0);
                 break;
             case TOP:
-                mCornuteMatrix.setTranslate(-mBulgeSize, 0);
-                mBulgePath.transform(mCornuteMatrix, mDestBulgePath);
+                mCanuteMatrix.setTranslate(-mBulgeSize, 0);
+                mBulgePath.transform(mCanuteMatrix, mDestBulgePath);
                 mPopMaskPath.addPath(mDestBulgePath, offset, height - mBulgeSize);
                 break;
         }

@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * @author ShamsChu
- * @Date 17/9/6 22:16
+ * @author Ryan
+ * create by 17/9/6 22:16
  */
 public abstract class MenuPopupAdapter<T> {
 

@@ -1,8 +1,8 @@
 package com.sc.sample;
 
 /**
- * @author ShamChu
- * @Date 17/9/6 21:52
+ * @author Ryan
+ * create by 17/9/6 21:52
  */
 public class TestMenuBean {
 

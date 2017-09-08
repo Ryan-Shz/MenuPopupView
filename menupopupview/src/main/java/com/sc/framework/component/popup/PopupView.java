@@ -7,8 +7,8 @@ import android.view.View;
 /**
  * 气泡菜单提示控件
  *
- * @author ShamsChu
- * @Date 17/2/14 下午3:32
+ * @author Ryan
+ * create by 17/2/14 下午3:32
  */
 public class PopupView extends AbsPopupView implements IPopupLayout {
 

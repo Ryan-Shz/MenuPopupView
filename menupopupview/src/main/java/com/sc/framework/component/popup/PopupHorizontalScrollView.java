@@ -10,8 +10,8 @@ import android.view.WindowManager;
 import android.widget.HorizontalScrollView;
 
 /**
- * @author ShamsChu
- * @Date 17/2/19 下午2:43
+ * @author Ryan
+ * create by 17/2/19 下午2:43
  */
 public class PopupHorizontalScrollView extends HorizontalScrollView {
 
@@ -31,8 +31,10 @@ public class PopupHorizontalScrollView extends HorizontalScrollView {
         super(context, attrs, defStyleAttr);
         DisplayMetrics metrics = new DisplayMetrics();
         WindowManager mWindowManager = (WindowManager) getContext().getSystemService(Context.WINDOW_SERVICE);
-        mWindowManager.getDefaultDisplay().getMetrics(metrics);
-        mMaxWidth = metrics.widthPixels - (mWindowSpacing << 1);
+        if(mWindowManager != null){
+            mWindowManager.getDefaultDisplay().getMetrics(metrics);
+            mMaxWidth = metrics.widthPixels - (mWindowSpacing << 1);
+        }
     }
 
     @Override
