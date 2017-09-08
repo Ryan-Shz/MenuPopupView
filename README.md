@@ -20,7 +20,7 @@ allprojects {
     }
 }
 
-compile 'com.sc.framework.component:menupopupview:1.0.1'
+compile 'com.sc.framework.component:menupopupview:1.0.2'
 ```
 
 ### 1. 自定义MenuPopupAdapter
