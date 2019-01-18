@@ -6,8 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * @author Ryan
  * create by 17/9/6 22:16
+ *
+ * @author Ryan
  */
 public abstract class MenuPopupAdapter<T> {
 

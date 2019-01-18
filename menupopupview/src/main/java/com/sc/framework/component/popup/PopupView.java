@@ -5,10 +5,10 @@ import android.graphics.Point;
 import android.view.View;
 
 /**
+ * create by 17/2/14 下午3:32
  * 气泡菜单提示控件
  *
  * @author Ryan
- * create by 17/2/14 下午3:32
  */
 public class PopupView extends AbsPopupView implements IPopupLayout {
 

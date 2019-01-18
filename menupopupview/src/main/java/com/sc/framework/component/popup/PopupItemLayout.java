@@ -9,12 +9,12 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 /**
- * @author Ryan
  * create by 17/3/14 下午11:22
+ *
+ * @author Ryan
  */
 public class PopupItemLayout extends LinearLayout {
 
-    private int mDriverColorResId = R.color.menu_popup_driver_default;
     private Paint mPaint;
 
     public PopupItemLayout(Context context) {
@@ -35,6 +35,7 @@ public class PopupItemLayout extends LinearLayout {
         setWillNotDraw(false);
         mPaint = new Paint();
         mPaint.setStrokeWidth(3);
+        mPaint.setColor(getResources().getColor(R.color.menu_popup_driver_default));
     }
 
     @Override
@@ -43,21 +44,24 @@ public class PopupItemLayout extends LinearLayout {
     }
 
     @Override
-    protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
+    protected void dispatchDraw(Canvas canvas) {
+        super.dispatchDraw(canvas);
+        drawItemDriver(canvas);
+    }
+
+    private void drawItemDriver(Canvas canvas) {
         int count = getChildCount();
         if (count <= 0) {
             return;
         }
-        mPaint.setColor(getResources().getColor(mDriverColorResId));
         for (int i = 1; i < count; i++) {
             View childView = getChildAt(i);
-            canvas.drawLine(childView.getLeft(), 0, childView.getLeft(), getMeasuredHeight(), mPaint);
+            canvas.drawLine(childView.getLeft(), childView.getTop(), childView.getLeft(), childView.getBottom(), mPaint);
         }
     }
 
     public void setDriverColorResId(int diverColorResId) {
-        this.mDriverColorResId = diverColorResId;
+        mPaint.setColor(getResources().getColor(diverColorResId));
     }
 
 }

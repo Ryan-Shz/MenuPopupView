@@ -10,9 +10,10 @@ import android.view.View.MeasureSpec;
 import android.view.WindowManager.LayoutParams;
 import android.widget.PopupWindow;
 
-/**
- * @author Ryan
+/*
  * create by 17/2/18 下午9:12
+ *
+ * @author Ryan
  */
 abstract class AbsPopupView extends PopupWindow {
 

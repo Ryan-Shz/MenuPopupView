@@ -1,8 +1,9 @@
 package com.sc.framework.component.popup;
 
 /**
- * @author Ryan
  * create by 17/3/2 下午7:04
+ *
+ * @author Ryan
  */
 interface IPopupLayout {
 
