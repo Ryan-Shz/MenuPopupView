@@ -62,7 +62,6 @@ public class TestPopupAdapter extends MenuPopupAdapter<String> {
     public String getItem(int position) {
         return mData.get(position);
     }
-
 }
 ```
 
@@ -89,7 +88,6 @@ popupView.show(v);
 ### 4. 动态改变菜单并刷新
 ```
 adapter.notifyDataSetChanged();
-
 ```
 
 ### 5. 设置分割线颜色
