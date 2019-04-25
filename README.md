@@ -7,22 +7,6 @@
 
 ## 使用说明
 
-### Gradle
-
-```
-// project build.gradle
-allprojects {
-    repositories {
-        jcenter()
-        maven {
-            url 'https://dl.bintray.com/shamschu/maven'
-        }
-    }
-}
-
-compile 'com.sc.framework.component:menupopupview:1.0.2'
-```
-
 ### 1. 自定义MenuPopupAdapter
 ```
 public class TestPopupAdapter extends MenuPopupAdapter<String> {
