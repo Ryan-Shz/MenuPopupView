@@ -15,12 +15,12 @@
         android:padding="10dp"
         android:src="@drawable/menu_popup_left_arrow" />
 
-    <com.sc.framework.component.popup.PopupHorizontalScrollView
+    <com.ryan.github.popup.PopupHorizontalScrollView
         android:id="@+id/scrollView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-    </com.sc.framework.component.popup.PopupHorizontalScrollView>
+    </com.ryan.github.popup.PopupHorizontalScrollView>
 
     <ImageView
         android:id="@+id/right_arrow_iv"

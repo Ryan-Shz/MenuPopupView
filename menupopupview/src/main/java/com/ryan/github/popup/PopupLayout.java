@@ -1,4 +1,4 @@
-package com.sc.framework.component.popup;
+package com.ryan.github.popup;
 
 import android.content.Context;
 import android.database.DataSetObserver;
@@ -7,15 +7,14 @@ import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Path;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffXfermode;
-import android.graphics.Rect;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import com.sc.framework.component.popup.R;
 
 /**
  * 弹出的气泡菜单

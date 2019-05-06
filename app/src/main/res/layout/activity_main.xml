@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.sc.sample.MainActivity">
+    tools:context="com.sc.sample.com.ryan.github.popup.sample.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

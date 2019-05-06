@@ -1,4 +1,4 @@
-package com.sc.sample;
+package com.ryan.github.popup.sample;
 
 import android.os.Handler;
 import android.os.Looper;
@@ -8,9 +8,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.sc.framework.component.popup.MenuPopupAdapter;
-import com.sc.framework.component.popup.PopupLayout;
-import com.sc.framework.component.popup.PopupView;
+import com.ryan.github.popup.MenuPopupAdapter;
+import com.ryan.github.popup.PopupLayout;
+import com.ryan.github.popup.PopupView;
+import com.sc.sample.R;
 
 import java.util.ArrayList;
 import java.util.List;

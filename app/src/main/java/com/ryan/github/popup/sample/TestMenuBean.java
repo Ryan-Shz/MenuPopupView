@@ -1,4 +1,4 @@
-package com.sc.sample;
+package com.ryan.github.popup.sample;
 
 /**
  * @author Ryan

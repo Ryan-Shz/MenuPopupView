@@ -1,4 +1,4 @@
-package com.sc.framework.component.popup;
+package com.ryan.github.popup;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,6 +7,8 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
+
+import com.sc.framework.component.popup.R;
 
 /**
  * create by 17/3/14 下午11:22

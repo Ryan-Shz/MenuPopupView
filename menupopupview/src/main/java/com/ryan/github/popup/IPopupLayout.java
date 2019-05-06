@@ -1,4 +1,4 @@
-package com.sc.framework.component.popup;
+package com.ryan.github.popup;
 
 /**
  * create by 17/3/2 下午7:04
