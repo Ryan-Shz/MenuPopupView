@@ -8,8 +8,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.sc.framework.component.popup.R;
-
 /**
  * create by 17/3/14 下午11:22
  *

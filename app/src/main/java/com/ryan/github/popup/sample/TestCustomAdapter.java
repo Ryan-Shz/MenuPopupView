@@ -6,7 +6,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.ryan.github.popup.MenuPopupAdapter;
-import com.sc.sample.R;
 
 import java.util.List;
 

@@ -14,8 +14,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.sc.framework.component.popup.R;
-
 /**
  * 弹出的气泡菜单
  * <p>

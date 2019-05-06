@@ -11,7 +11,6 @@ import android.widget.Toast;
 import com.ryan.github.popup.MenuPopupAdapter;
 import com.ryan.github.popup.PopupLayout;
 import com.ryan.github.popup.PopupView;
-import com.sc.sample.R;
 
 import java.util.ArrayList;
 import java.util.List;
