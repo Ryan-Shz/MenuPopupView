@@ -1,5 +1,5 @@
 # MenuPopupView
-[ ![Download](https://api.bintray.com/packages/ryan-shz/Ryan/menupopupview/images/download.svg) ](https://bintray.com/ryan-shz/Ryan/fastwebview/_latestVersion)![](https://img.shields.io/badge/license-MIT-green)
+[ ![Download](https://api.bintray.com/packages/ryan-shz/Ryan/menupopupview/images/download.svg) ](https://bintray.com/ryan-shz/Ryan/menupopupview/_latestVersion)![](https://img.shields.io/badge/license-MIT-green)
 
 一款仿iOS长按菜单弹窗的自定义控件。
 
