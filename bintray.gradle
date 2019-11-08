@@ -1,0 +1,15 @@
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'ryan-shz'
+    repoName = 'Ryan'
+    groupId = 'com.ryan.github'
+    artifactId = 'menupopupview'
+    publishVersion = '1.0.0'
+    desc = '一个仿iOS长按菜单弹窗的自定义控件'
+    website = 'https://github.com/Ryan-Shz/MenuPopupView.git'
+}
+
+tasks.withType(Javadoc).all {
+    enabled = false
+}
