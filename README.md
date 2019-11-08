@@ -1,11 +1,19 @@
 # MenuPopupView
-一个仿iOS长按菜单弹窗的自定义控件
+[ ![Download](https://api.bintray.com/packages/ryan-shz/Ryan/menupopupview/images/download.svg) ](https://bintray.com/ryan-shz/Ryan/fastwebview/_latestVersion)![](https://img.shields.io/badge/license-MIT-green)
+
+一款仿iOS长按菜单弹窗的自定义控件。
 
 ## 效果图
 
 ![](sample.gif)
 
-## 使用说明
+## 导入
+
+```
+implementation 'com.ryan.github:menupopupview:1.0.0'
+```
+
+## 使用
 
 ### 1. 自定义MenuPopupAdapter
 ```
